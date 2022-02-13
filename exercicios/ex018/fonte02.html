@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('fonts/love story.ttf') format('truetype'), url('fonts/love story.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*Quando você estiver trablhando com estilos externos você talvéz precise colocar isso '../fonts/love larry.otf'
+            quando estiver em outra pasta*/
+
+            /*
+            Tipos de format()
+            -opentype(otf)
+            -truetype(ttf)
+            embedded-opentype
+            -truetype-aat (Apple Advanced Typography)
+            -svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'love', Times, sans-serif;
+            font-weight: normal;
+            letter-spacing: 8px;
+            color: crimson;
+            background-color: rosybrown;
+            width: 600px;
+            height: 100px;
+            text-align: center;
+            padding-top: 20px;
+            border-radius: 10ex;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio atque ut modi possimus explicabo quis, tempora, sequi et quisquam ipsam quasi. Placeat sint cum similique praesentium nostrum, mollitia veniam ipsa!</p>
+
+</body>
+</html>

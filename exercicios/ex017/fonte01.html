@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
+            /*fontes famosas: Arial, verdana, 'Courier New', Helvetica*/
+            /*outra forma de ter certeza que o dispositivo vai achar a fonte é colocar sans-serif, serif, ou monospaced assim o computador vai colocar a da família que existir nele.*/
+
+            /*Medidas Absolutas
+            cm, mm, in, px(pode aparecer com 4 compoenetes as telas de retina), pt, pc (pt e paica são medidas para impressão de papel)
+
+            Medidas Relativas
+            em (relativo ao tamanho atual da fonte relativo a altura 'm' maíusculo de uma letra), ex (relativo a altura x de uma fonte), rem (a fonte relativa no body), vw(view width alargura do viewport tamanho da sua tela porcentagem), vh (relativo a altura do viewport), %
+            vamos usar basicamente em
+            para o tamanho de fonte o W3c recomenda o 'px' e o uso do 'em'
+            16px geralmente = 1 em
+            em o tamanho normal da letra
+            tem também o rem que dá no mesmo de em
+            */
+            font-size: 16px;/*é o tamanho normal da fonte*/
+            font-weight: bolder;
+            font-style: italic;
+            /*o sublinhado é o text-decoration*/
+            text-decoration: underline chocolate;
+            /*lighter normal bold bolder*/
+            /*100 - 900 o 400 é o normal*/
+        }
+        h1 {
+            font-family: 'Work Sans, sans-serif';
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*shorthand font
+            - font-style -> fonte-weight -> font size -> font-family 
+            
+            tudo que foi digitado sobre a letra pode ser resumido desta forma
+            font: italic bolder 3em 'Wor Sans', sans-serif;
+            */
+
+        }
+        /*h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }*/
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum excepturi labore fugit totam nemo atque perspiciatis at reprehenderit quibusdam? Minus ipsum quo inventore enim eum recusandae deserunt labore repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam nesciunt id quibusdam deserunt nisi necessitatibus odio, nihil animi omnis blanditiis laboriosam neque aliquid porro sed exercitationem eaque sapiente. Consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat at soluta fuga illum, autem molestiae odit, ipsa praesentium vitae dolorum nesciunt blanditiis fugiat dolores nobis nostrum totam recusandae minima atque?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae esse voluptatem laudantium a, commodi aliquam autem odit possimus alias asperiores. Molestias ut eveniet excepturi totam libero fuga iste explicabo! Architecto?</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum quas ipsum minus praesentium vel maiores totam adipisci molestias similique dolorum autem accusantium, libero mollitia provident neque officia laboriosam modi aut!</p>
+
+</body>
+</html>

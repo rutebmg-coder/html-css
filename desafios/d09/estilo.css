@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(0, 0, 0, 0.781);
+    font: normal 20pt Arial;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+a{
+    color: yellowgreen;
+}
